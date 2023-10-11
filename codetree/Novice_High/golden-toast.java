@@ -1,3 +1,6 @@
+// [Codetree] Golden Toast
+// 소요 시간 : 40분
+
 import java.util.*;
 
 public class Main {

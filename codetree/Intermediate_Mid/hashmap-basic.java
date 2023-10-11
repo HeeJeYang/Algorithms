@@ -1,3 +1,6 @@
+// [Codetree] Hashmap Basic
+// 소요 시간 : 30분
+
 import java.util.Scanner;
 import java.util.HashMap;
 

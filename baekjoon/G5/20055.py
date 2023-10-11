@@ -1,5 +1,5 @@
 # [BOJ] 20055. 컨베이어 벨트 위의 로봇
-# 소요 시간 : 00분 (11:03 ~)
+# 소요 시간 : 60분
 
 from collections import deque, defaultdict
 import sys

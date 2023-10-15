@@ -1,7 +1,10 @@
 # [BOJ] 1063. 킹
 # 소요 시간 : 18분
 
-king_pos, stone_pos, N = input().split()
+import sys
+input = sys.stdin.readline
+
+king_pos, stone_pos, N = input().rstrip().split()
 N = int(N)
 king = [8 - int(king_pos[1]), ord(king_pos[0]) - 65]
 stone = [8 - int(stone_pos[1]), ord(stone_pos[0]) - 65]
@@ -18,7 +21,7 @@ direction = {
 }
 
 for _ in range(N):
-    command = input()
+    command = input().rstrip()
     d_king = [king[0] + direction[command][0], king[1] + direction[command][1]]
     if 0 <= d_king[0] < 8 and 0 <= d_king[1] < 8:
         if stone[0] == d_king[0] and stone[1] == d_king[1]:

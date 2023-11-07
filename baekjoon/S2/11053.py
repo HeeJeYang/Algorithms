@@ -1,6 +1,6 @@
 # [BOJ] 11053. 가장 긴 증가하는 부분 수열
-# 실행 시간 : 00 ms
-# 메모리 : 00 KB
+# 실행 시간 : 160 ms
+# 메모리 : 31120 KB
 
 N = int(input())
 numbers = list(map(int, input().split()))

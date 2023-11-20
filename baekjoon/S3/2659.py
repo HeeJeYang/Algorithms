@@ -1,8 +1,6 @@
 # [BOJ] 2659. 십자카드 문제
-# 실행 시간 : 00 ms
-# 메모리 : 00 KB
-
-from collections import deque
+# 실행 시간 : 72 ms
+# 메모리 : 34016 KB
 
 target = "".join(input().split())
 t_set = set()

@@ -1,6 +1,6 @@
-# [BOJ] 1138. 한 줄로 서기
-# 실행 시간 : 00 ms
-# 메모리 : 00 KB
+# [BOJ] 1138. 한 줄로 서기(PyPy)
+# 실행 시간 : 1676 ms
+# 메모리 : 110592 KB
 
 from itertools import permutations
 

@@ -1,6 +1,6 @@
-# [BOJ] 5427. 불
-# 실행 시간 : 00 ms
-# 메모리 : 00 KB
+# [BOJ] 5427. 불(PyPy3)
+# 실행 시간 : 708ms
+# 메모리 : 211972 KB
 
 from collections import deque
 import sys

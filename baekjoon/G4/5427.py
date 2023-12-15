@@ -33,7 +33,7 @@ def bfs(sy, sx):
             if ny < 0 or ny >= h or nx < 0 or nx >= w:
                 return visited[y][x]
 
-            if visited[ny][nx] == 0 and building_map[ny][nx] == "." and fire_map[ny][nx] > visited[y][x]:
+            if visited[ny][nx] == 0 and building_map[ny][nx] == "." and (fire_map[ny][nx] == 0 or fire_map[ny][nx] - 1 > visited[y][x]):
                 visited[ny][nx] = visited[y][x] + 1
                 bfs_q.append((ny, nx))
 

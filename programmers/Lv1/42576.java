@@ -1,7 +1,5 @@
 // [Programmers] 42576. 완주하지 못한 선수
 
-package programmers.Lv1;
-
 import java.util.*;
 
 class Solution {
